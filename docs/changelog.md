@@ -1,6 +1,5 @@
 # Changelog
 ###### Last updated: 29/10/21
-
 === "Major Releases"
     ##v1.4.0
     ???+ note "Utility Update - 28/10/21"
@@ -71,6 +70,94 @@
         * Fixed the report command not sending reports properly
         * The bot must now have the `SEND_MESSAGES` and `READ_MESSAGE_HISTORY` permissions for any aspect of it to function in a channel. If you don't want levelling in that channel or the bot to be able to respond to commands, deny any of these permissions.
         * You can no longer set roles/channels in the settings command that the bot cannot access.
+
+    ##v1.3.0
+    ??? note "Ticket Update - 26/09/21"
+        ###Ticket Module
+        Creating and managing tickets is easier than ever with Wyvern. You can create a panel with a simple one-click button, and even disable/enable it to control the flow of tickets. Features:
+
+        * Adding/removing users from a ticket
+        * Transcripts
+        * Setting a category where closed tickets will be archived to
+        * Claiming
+        
+        ###Hosting Module
+        This module was created for customers of our sister server Wyvern Hosting to use. It allows you to control your server straight from the discord bot. Connecting your account is easy with the auth command. Features:
+
+        * Backups
+        * Stop/start/restart your server
+        * View your server resources
+        * Send a command directly to your server
+        * View basic details, e.g. connection information
+        
+        ###Vote Rewards
+        Wyvern now offers rewards if you vote for us. For more information, run the vote command. As of currently, the rewards for voting are the following:
+
+        * 25% extra levelling XP in all servers
+        * A voters role in the Wyvern Studios Discord.
+        Each vote gives you an additional 6 hours of benefits. You can vote on each platform every 12 hours.
+        
+        ###Smaller Features:
+
+        * Emoji Steal command
+        * Information command
+        * Nuke confirmation
+        * Rewrite of Settings command (much more user friendly now!)
+        * Missing Permissions Warning
+        * Activities Rotation
+        * Countless bug fixes
+
+    ##v1.2.1
+    ??? note "Configuration Update - 04/09/21"
+        ###New Database
+        Our new database and way of fetching data is much more efficient, allowing us to store more configuration options per server and fetch them easily. Migration is automatic and happens behind the scenes, but if you notice any problems, please contact our support team.
+        
+        ###Settings Command
+        With this new settings command comes new configuration options and a much more straight forward way of configuring your server. View the syntax using !help settings. New options:
+
+        * Blacklist commands (does not apply to users with the ADMINISTRATOR permission).
+        * Disable levelling
+        * Fixed countless typos and bugs
+        * Improved backend data handling and analytics collection
+
+    ##v1.2.0
+    ??? note "General Overhaul - 24/08/21"
+        ###Added
+        * AFK System
+        * Bug Utilities
+        * Invitebot Command
+        * Linkbuttons Command
+        * Ping Command
+        * Uptime Command
+        * Userreport Command
+        * Warnings Command
+        
+        ###Updated
+        * Help Command (more user-friendly interface)
+        * Levelling
+        * Giveaways
+        * Error messages rewritten to provide more useful responses
+        * Every command was overhauled, but some changes were minor
+
+        ###Temporarily Disabled
+        - Music
+
+    ##v1.1.1
+    ??? note "Music Update - 25/05/21"
+        Added music commands to the bot!
+
+    ##v1.0.1
+    ??? note "Purge Command - 21/05/21"
+        Minimal bug fixes such as making `!purge` command more specifically delete messages.
+        (Moderation is under development and will be pushed out ASAP)
+
+    ##v1.0.0
+    ??? note "Release - 19/05/21"
+        Core bot features have been rolled out. Bot has successfully been hosted and is ready to be added to servers.
+        ###Current Features
+        
+        * Giveaways
+        * Purge/Nuke
 
 
 === "Improvements"

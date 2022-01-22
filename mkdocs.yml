@@ -18,14 +18,21 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
   name: material
+  custom_dir: docs/overrides
   logo: assets/logo.png
   favicon: assets/logo.png
   features:
     - navigation.instant
     - navigation.tabs
+    - navigation.top
     - toc.integrate
   plugins:
     - search
+    - git-authors
+    - git-revision-date-localized:
+        type: date
+        fallback_to_build_date: true
+        enable_creation_date: true
   palette:
     - media: "(prefers-color-scheme: light)"
 
