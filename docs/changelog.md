@@ -69,7 +69,7 @@
         * Added alias 'votes' to the vote command
         * Fixed punishment commands responding twice with different errors
         * Fixed the report command not sending reports properly
-        * The bot must now have the SEND_MESSAGES and READ_MESSAGE_HISTORY permissions for any aspect of it to function in a channel. If you don't want levelling in that channel or the bot to be able to respond to commands, deny any of these permissions.
+        * The bot must now have the `SEND_MESSAGES` and `READ_MESSAGE_HISTORY` permissions for any aspect of it to function in a channel. If you don't want levelling in that channel or the bot to be able to respond to commands, deny any of these permissions.
         * You can no longer set roles/channels in the settings command that the bot cannot access.
 
 

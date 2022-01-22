@@ -1,6 +1,9 @@
 site_name: Wyvern Bot
+repo_url: https://github.com/WyvernGroup/bot-docs
+repo_name: WyvernGroup/bot-docs
 theme:
   icon:
+    repo: fontawesome/brands/github
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -20,6 +23,7 @@ theme:
   features:
     - navigation.instant
     - navigation.tabs
+    - toc.integrate
   plugins:
     - search
   palette:
