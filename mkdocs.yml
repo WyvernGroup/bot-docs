@@ -26,13 +26,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - toc.integrate
-  plugins:
-    - search
-    - git-authors
-    - git-revision-date-localized:
-        type: date
-        fallback_to_build_date: true
-        enable_creation_date: true
+    - content.tabs.link
   palette:
     - media: "(prefers-color-scheme: light)"
 
@@ -51,6 +45,15 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+plugins:
+  - search
+  - git-authors
+  - git-revision-date-localized:
+      type: timeago
+      timezone: Europe/Amsterdam
+      locale: en
+      fallback_to_build_date: true
+
 extra:
   social:
     - icon: fontawesome/brands/discord

@@ -6,4 +6,6 @@
 
 There's not much here right now... check back later.
 
-######Last Updated: 22/01/22 
+##Contributors
+
+{{ git_site_authors }}
