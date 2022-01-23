@@ -25,6 +25,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: cname stuff
-        run: echo docs.wyvernbot.xyz > CNAME
-    
+      - name: idea time
+        run: |
+          git checkout gh-pages    
+          echo docs.wyvernbot.xyz > CNAME
+          git add -A
+          git diff-index --quiet HEAD ||  git commit -am "configure CNAME"  
+          git push origin gh-pages
