@@ -19,4 +19,12 @@ jobs:
       - name: CNAME stuff
         run: |
           echo "docs.wyvernbot.xyz" > CNAME
-        
+  cname:
+    needs: deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: cname stuff
+        run: echo docs.wyvernbot.xyz > CNAME
+    
