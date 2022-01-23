@@ -1,0 +1,1184 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.8">
+    
+    
+      
+        <title>Changelog - Wyvern Bot</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6e60f8b8.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/timeago.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="light-blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#changelog" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Wyvern Bot" class="md-header__button md-logo" aria-label="Wyvern Bot" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Wyvern Bot
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/WyvernGroup/bot-docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    WyvernGroup/bot-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link md-tabs__link--active">
+        Overview
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../support-us/vote/" class="md-tabs__link">
+        Support Us
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../legal/privacy/" class="md-tabs__link">
+        Legal
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../jobs/tester/" class="md-tabs__link">
+        Jobs
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Wyvern Bot" class="md-nav__button md-logo" aria-label="Wyvern Bot" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    Wyvern Bot
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/WyvernGroup/bot-docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    WyvernGroup/bot-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Overview
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Overview" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Overview
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigation/" class="md-nav__link">
+        Navigation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/" class="md-nav__link">
+        Commands
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Changelog
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Changelog
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#last-updated-291021" class="md-nav__link">
+    Last updated: 29/10/21
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v140" class="md-nav__link">
+    v1.4.0
+  </a>
+  
+    <nav class="md-nav" aria-label="v1.4.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auto-ticket-closing" class="md-nav__link">
+    Auto Ticket Closing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#improved-purge-command" class="md-nav__link">
+    Improved Purge Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#levelling-updates" class="md-nav__link">
+    Levelling Updates
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quotes" class="md-nav__link">
+    Quotes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smaller-features" class="md-nav__link">
+    Smaller Features
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#premium-features" class="md-nav__link">
+    Premium Features
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v131" class="md-nav__link">
+    v1.3.1
+  </a>
+  
+    <nav class="md-nav" aria-label="v1.3.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    Features
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additions" class="md-nav__link">
+    Additions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v130" class="md-nav__link">
+    v1.3.0
+  </a>
+  
+    <nav class="md-nav" aria-label="v1.3.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ticket-module" class="md-nav__link">
+    Ticket Module
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hosting-module" class="md-nav__link">
+    Hosting Module
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vote-rewards" class="md-nav__link">
+    Vote Rewards
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smaller-features_1" class="md-nav__link">
+    Smaller Features:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v121" class="md-nav__link">
+    v1.2.1
+  </a>
+  
+    <nav class="md-nav" aria-label="v1.2.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#new-database" class="md-nav__link">
+    New Database
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settings-command" class="md-nav__link">
+    Settings Command
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v120" class="md-nav__link">
+    v1.2.0
+  </a>
+  
+    <nav class="md-nav" aria-label="v1.2.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updated" class="md-nav__link">
+    Updated
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#temporarily-disabled" class="md-nav__link">
+    Temporarily Disabled
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v111" class="md-nav__link">
+    v1.1.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v101" class="md-nav__link">
+    v1.0.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v100" class="md-nav__link">
+    v1.0.0
+  </a>
+  
+    <nav class="md-nav" aria-label="v1.0.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#current-features" class="md-nav__link">
+    Current Features
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v1402" class="md-nav__link">
+    v1.4.0.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v1401" class="md-nav__link">
+    v1.4.0.1
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Support Us
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Support Us" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Support Us
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support-us/vote/" class="md-nav__link">
+        Voting (free)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support-us/premium/" class="md-nav__link">
+        Premium (paid)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Legal
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Legal" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Legal
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../legal/privacy/" class="md-nav__link">
+        Privacy Policy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../legal/tos/" class="md-nav__link">
+        Terms of Service
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Jobs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Jobs" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Jobs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jobs/tester/" class="md-nav__link">
+        Testing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jobs/support/" class="md-nav__link">
+        Support
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+
+                
+<a href="https://github.com/WyvernGroup/bot-docs/edit/master/docs/changelog.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+<h1 id="changelog">Changelog</h1>
+<h6 id="last-updated-291021">Last updated: 29/10/21</h6>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Major Releases</label><label for="__tabbed_1_2">Improvements</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<h2 id="v140">v1.4.0</h2>
+<details class="note" open="open">
+<summary>Utility Update - 28/10/21</summary>
+<h3 id="auto-ticket-closing">Auto Ticket Closing</h3>
+<p>When you have a fantastic support team helping so many people at the same time, it's hard to keep track of all the tickets you have open. With Wyvern's ticket system, you can now specify how long a ticket should stay open for before it is closed automatically. The best part? It's absolutely free. You don't need to vote, nor do you need to subscribe to our patreon. </p>
+<ul>
+<li>Can be configured globally or on a per-ticket basis.</li>
+<li>Automatically sends a message and DMs any users added to the ticket before the closure date.</li>
+<li>Will DM any users added to the ticket when it is closed automatically.</li>
+</ul>
+<h3 id="improved-purge-command">Improved Purge Command</h3>
+<p>Our new purge command allows for all types of users. Whether you only need to purge a set amount of messages, or if you need to filter them from different users containing a certain string. </p>
+<ul>
+<li>Flags allow for as many filters to be applied as the user desires.</li>
+</ul>
+<h3 id="levelling-updates">Levelling Updates</h3>
+<p>Thanks to community feedback, we've added more customisation options to the levelling module.</p>
+<ul>
+<li>Redirect all levelling messages to a specific channel.</li>
+<li>Change the level up message with placeholders.</li>
+<li>XP Boost Roles allow you to tweak the amount of XP each role in your server gets.</li>
+</ul>
+<h3 id="quotes">Quotes</h3>
+<p>Have you ever seen a message from another server that you need to show your friend? Or maybe you have a quotebook channel and want to preserve the content of a message? Now you can!</p>
+<ul>
+<li>Disabled by default, enable it in the settings command.</li>
+<li>Simply send a message link and the bot will reply with the content.</li>
+<li>Opt-out of other servers quoting your messages.</li>
+</ul>
+<p><em>quoting only works cross-servers if the bot is in both servers and the target server has not opted-out of external quoting</em> </p>
+<h3 id="smaller-features">Smaller Features</h3>
+<ul>
+<li>Settings &amp; Help command now have menus attached to them to make navigation easier.</li>
+<li>Ability to add people to tickets based on their username.</li>
+<li>Activities command has been re-enabled after a complete redesign!</li>
+<li>Settings command now has categories to easily navigate settings.</li>
+<li>Added the ability to change the content of the ticket panel message.</li>
+<li>Tip command - random tips about the bot you might not have known!</li>
+<li>Ticket Closure Notifications when clicking the close button</li>
+<li>Snowflake Command</li>
+<li>Convert unix time command</li>
+<li>Countless bug fixes</li>
+</ul>
+<p>Also this update, we've migrated our ticket system to a faster and more efficient database to manage growth better in the future. Whenever you read this, migration is already complete. If you notice any problems with old tickets, please open a ticket in this server.</p>
+<h3 id="premium-features">Premium Features</h3>
+<p>As you may have noticed, everything in this update is completely free, and we want to keep it that way. However, we need your help. Whether you can support us financially or not, please consider subscribing to our <a href="https://www.patreon.com/wyvernbot">Patreon</a> or simply voting for the bot for absolutely free (<code>!vote</code>). Wyvern is growing at an incredible rate, and that results in higher operating costs. To keep our features free, please consider subscribing.</p>
+<p>Ben:  All features + Bug fixes</p>
+<p>Wyvern Testers: Testing</p>
+</details>
+<h2 id="v131">v1.3.1</h2>
+<details class="note">
+<summary>Ticket Update (Week One Patch) - 01/10/21</summary>
+<p>Following feedback from <strong>v1.3.0</strong>, we have released a patch to fix some bugs that slipped under our radar, and a few small features.</p>
+<h3 id="features">Features</h3>
+<ul>
+<li>There is now a button under missing permission warnings to disable future warnings if you are already aware of the problem and do not wish to fix it.</li>
+<li>Unique error codes are now generated and sent with errors. If you encounter any problems using Wyvern, you can open a ticket and send us this error code for possible fixes.</li>
+<li>Added vote cooldowns to the vote message (tells you when you can next vote on each platform)</li>
+<li>Permission restrictions - we are committed to making Wyvern as easy as possible to use. Now, when you try to run a command that Wyvern does not have sufficient permissions to execute, the bot will provide you with the permissions it needs.</li>
+</ul>
+<h3 id="additions">Additions</h3>
+<ul>
+<li>Fixed vote messages showing times from the previous vote</li>
+<li>The levelling module will remain on for new servers, however there is a new option called levellingMessages which will now be turned off by default</li>
+<li>Added alias 'votes' to the vote command</li>
+<li>Fixed punishment commands responding twice with different errors</li>
+<li>Fixed the report command not sending reports properly</li>
+<li>The bot must now have the <code>SEND_MESSAGES</code> and <code>READ_MESSAGE_HISTORY</code> permissions for any aspect of it to function in a channel. If you don't want levelling in that channel or the bot to be able to respond to commands, deny any of these permissions.</li>
+<li>You can no longer set roles/channels in the settings command that the bot cannot access.</li>
+</ul>
+</details>
+<h2 id="v130">v1.3.0</h2>
+<details class="note">
+<summary>Ticket Update - 26/09/21</summary>
+<h3 id="ticket-module">Ticket Module</h3>
+<p>Creating and managing tickets is easier than ever with Wyvern. You can create a panel with a simple one-click button, and even disable/enable it to control the flow of tickets. Features:</p>
+<ul>
+<li>Adding/removing users from a ticket</li>
+<li>Transcripts</li>
+<li>Setting a category where closed tickets will be archived to</li>
+<li>Claiming</li>
+</ul>
+<h3 id="hosting-module">Hosting Module</h3>
+<p>This module was created for customers of our sister server Wyvern Hosting to use. It allows you to control your server straight from the discord bot. Connecting your account is easy with the auth command. Features:</p>
+<ul>
+<li>Backups</li>
+<li>Stop/start/restart your server</li>
+<li>View your server resources</li>
+<li>Send a command directly to your server</li>
+<li>View basic details, e.g. connection information</li>
+</ul>
+<h3 id="vote-rewards">Vote Rewards</h3>
+<p>Wyvern now offers rewards if you vote for us. For more information, run the vote command. As of currently, the rewards for voting are the following:</p>
+<ul>
+<li>25% extra levelling XP in all servers</li>
+<li>A voters role in the Wyvern Studios Discord.
+Each vote gives you an additional 6 hours of benefits. You can vote on each platform every 12 hours.</li>
+</ul>
+<h3 id="smaller-features_1">Smaller Features:</h3>
+<ul>
+<li>Emoji Steal command</li>
+<li>Information command</li>
+<li>Nuke confirmation</li>
+<li>Rewrite of Settings command (much more user friendly now!)</li>
+<li>Missing Permissions Warning</li>
+<li>Activities Rotation</li>
+<li>Countless bug fixes</li>
+</ul>
+</details>
+<h2 id="v121">v1.2.1</h2>
+<details class="note">
+<summary>Configuration Update - 04/09/21</summary>
+<h3 id="new-database">New Database</h3>
+<p>Our new database and way of fetching data is much more efficient, allowing us to store more configuration options per server and fetch them easily. Migration is automatic and happens behind the scenes, but if you notice any problems, please contact our support team.</p>
+<h3 id="settings-command">Settings Command</h3>
+<p>With this new settings command comes new configuration options and a much more straight forward way of configuring your server. View the syntax using !help settings. New options:</p>
+<ul>
+<li>Blacklist commands (does not apply to users with the ADMINISTRATOR permission).</li>
+<li>Disable levelling</li>
+<li>Fixed countless typos and bugs</li>
+<li>Improved backend data handling and analytics collection</li>
+</ul>
+</details>
+<h2 id="v120">v1.2.0</h2>
+<details class="note">
+<summary>General Overhaul - 24/08/21</summary>
+<h3 id="added">Added</h3>
+<ul>
+<li>AFK System</li>
+<li>Bug Utilities</li>
+<li>Invitebot Command</li>
+<li>Linkbuttons Command</li>
+<li>Ping Command</li>
+<li>Uptime Command</li>
+<li>Userreport Command</li>
+<li>Warnings Command</li>
+</ul>
+<h3 id="updated">Updated</h3>
+<ul>
+<li>Help Command (more user-friendly interface)</li>
+<li>Levelling</li>
+<li>Giveaways</li>
+<li>Error messages rewritten to provide more useful responses</li>
+<li>Every command was overhauled, but some changes were minor</li>
+</ul>
+<h3 id="temporarily-disabled">Temporarily Disabled</h3>
+<ul>
+<li>Music</li>
+</ul>
+</details>
+<h2 id="v111">v1.1.1</h2>
+<details class="note">
+<summary>Music Update - 25/05/21</summary>
+<p>Added music commands to the bot!</p>
+</details>
+<h2 id="v101">v1.0.1</h2>
+<details class="note">
+<summary>Purge Command - 21/05/21</summary>
+<p>Minimal bug fixes such as making <code>!purge</code> command more specifically delete messages.
+(Moderation is under development and will be pushed out ASAP)</p>
+</details>
+<h2 id="v100">v1.0.0</h2>
+<details class="note">
+<summary>Release - 19/05/21</summary>
+<p>Core bot features have been rolled out. Bot has successfully been hosted and is ready to be added to servers.</p>
+<h3 id="current-features">Current Features</h3>
+<ul>
+<li>Giveaways</li>
+<li>Purge/Nuke</li>
+</ul>
+</details>
+</div>
+<div class="tabbed-block">
+<h2 id="v1402">v1.4.0.2</h2>
+<details class="note">
+<summary>Minor bug fixes</summary>
+<p>The changelog for this version is not available currently.</p>
+</details>
+<h2 id="v1401">v1.4.0.1</h2>
+<details class="note" open="open">
+<summary>Emergency Vote Patch - 29/10/21</summary>
+<p>This was a silent update that involved the fix of votes not being received. Votes did not expire during this time to allow people to keep their streaks. As of the release of this update, vote timers have been re-enabled.</p>
+<ul>
+<li>Fixed votes not being received and processed</li>
+<li>Unix command can identify which conversion you are using without a subcommand</li>
+<li>Minor bug fixes</li>
+</ul>
+</details>
+</div>
+</div>
+</div>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-01-23T22:30:09+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-01-23</span>
+      
+    
+  </small>
+</div>
+
+              
+
+
+<div class="md-source-date">
+    <small>
+        Authors: <span class='git-page-authors git-authors'><a href='mailto:50147798+ben754444@users.noreply.github.com'>Ben</a></span>
+    </small>
+</div>
+
+
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../commands/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Commands" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Commands
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../support-us/vote/" class="md-footer__link md-footer__link--next" aria-label="Next: Voting (free)" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Voting (free)
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2021 - 2022 Wyvern Bot
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://discord.gg/H2g5638vyD" target="_blank" rel="noopener" title="discord.gg" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541zM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate", "content.tabs.link"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.960e086b.min.js"></script>
+      
+        <script src="../js/timeago.min.js"></script>
+      
+        <script src="../js/timeago_mkdocs_material.js"></script>
+      
+    
+  </body>
+</html>
