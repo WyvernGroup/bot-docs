@@ -16,7 +16,6 @@ jobs:
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-git-authors-plugin
       - run: mkdocs gh-deploy --force
-      - uses: "finnp/create-file-action@master"
-        env:
-          FILE_NAME: "CNAME"
-          FILE_DATA: "docs.wyvernbot.xyz"
+      - run: touch CNAME
+      - run: echo docs.wyvernbot.xyz >> CNAME
+        
