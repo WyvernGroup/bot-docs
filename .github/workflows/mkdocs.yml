@@ -18,7 +18,5 @@ jobs:
       - run: mkdocs gh-deploy --force
       - name: CNAME stuff
         run: |
-          touch CNAME
-          echo docs.wyvernbot.xyz >> CNAME
-        shell: bash
+          echo "docs.wyvernbot.xyz" > CNAME
         
