@@ -1,5 +1,15 @@
 #Voting for Wyvern
-Voting is an incredibly easy way for you to support Wyvern for completely free. 
+Voting is an incredibly easy way for you to support Wyvern for completely free. Here's a list of all the current sites
+you can vote on:
+
+* [Top.gg](https://top.gg/bot/845214061511180298/vote)
+* [Discord Labs](https://bots.discordlabs.org/bot/845214061511180298)
+* [Discord Boats](https://discord.boats/bot/845214061511180298/vote)
+* [Discord Bot List](https://discordbotlist.com/bots/wyvern/upvote)
+* [Discords.com](https://discords.com/bots/bot/845214061511180298/vote)
+* [Infinity Bot List](https://infinitybotlist.com/bots/845214061511180298/vote)
+
+<sub>You don't have to vote on all of them!</sub>
 
 !!! tip 
     Use `!vote` to view more personal information, such as when your [Benefits Session](#benefits-session) and current 
