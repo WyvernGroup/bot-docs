@@ -60,7 +60,7 @@ extra:
       link: https://discord.gg/H2g5638vyD
   analytics:
     provider: google
-    property: G-X27B4PRZXY
+    property: UA-217930126-1
 
 markdown_extensions:
   - admonition
