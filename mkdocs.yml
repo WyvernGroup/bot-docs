@@ -58,6 +58,9 @@ extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/H2g5638vyD
+  analytics:
+    provider: google
+    property: G-X27B4PRZXY
 
 markdown_extensions:
   - admonition
