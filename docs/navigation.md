@@ -10,7 +10,10 @@
 * [Premium (paid)](support-us/premium.md)
 ## Legal
 * [Privacy Policy](legal/privacy.md)
-* [Terms of Service](legal/tos.md)
 ## Jobs
 * [Testing](jobs/tester.md)
 * [Support](jobs/support.md)
+## Tickets
+* [Setup](tickets/enabling.md)
+* [Additional Features](tickets/additional.md)
+* [Advanced Features](tickets/advanced.md)
