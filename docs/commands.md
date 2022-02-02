@@ -1,0 +1,1 @@
+this page looks a bit empty... [maybe you could add something?](https://github.com/WyvernGroup/bot-docs/edit/master/docs/commands.md)

@@ -1,8 +1,73 @@
 # Changelog
-###### Last updated: 29/10/21
+###### Last updated: 03/02/22
 === "Major Releases"
+    ##v1.5.0
+    ???+ note "Bot Rewrite - 03/02/22"
+        We're so sorry for the lack of updates over the past 3 months, but this update alone is bigger than all our previous
+        updates combined. Unfortunately, most of our changes happened behind the scenes in terms of our backend infrastructure,
+        if we had time to add more to the frontend of the bot, this could easily have been 2.0.0.
+
+        ###General Overhaul
+        This update, we focused on polishing the bot and ensuring it was of the highest quality we could produce. Many bugs
+        were squashed and the overall ease of use of the bot has hopefully improved. Additionally, you should notice much
+        lower latency when using the bot, as we have drastically improved our backend infrastructure for handling commands.
+
+        ###Documentation
+        Having a fantastic bot packed with features is great, but we felt it was incredibly important to be more transparent
+        with our users and provide easy access to official guides. We are still working on adding content to our documentation,
+        and would grealty appreciate your help! If you have any suggestions, spot a mistake or wish to write a page, please
+        make a pull request/issue on the <a href="https://github.com/WyvernGroup/bot-docs/" target="_blank">github repository</a>.
+
+        ###Premium
+        As our bot continues to grow, requiring more server resources and more development time, we decided to create an 
+        option for people to support us. You can learn more <a href="https://patreon.com/wyvernbot" target="_blank">here</a>,
+        or view the [documentation page](/support-us/premium).
+
+        ###Giveaways
+        Giveaways are back! Get started by running `!g help`
+
+        ###Auto Ticket Closing when Member Leaves
+        A great new addition to our ticket options, automatically closing a ticket if the member who opened it leaves the
+        server. This is a fantastic way to prevent 'ghost tickets' from piling up. Our guide to this feature can be
+        found [here](/tickets/advanced).
+
+        ###Image Filter Command
+        With this new command, you can pick from a range of filters to apply to your own and friends profile pictures! 
+
+        ###Subscribe Command
+        The best way to keep up to date with all things Wyvern! Simply run `!subscribe` in your own Discord server, and Wyvern
+        will create a new channel where special notifcations from developers will be sent.
+
+        ###Purge using Message Link
+        You can now supply a message link instead of the number of messages to purge. This will purge all messages **up to** the
+        message you link to.
+
+        ###Moderation Policy Setting
+        You can now allow those with the appropriate permissions to disregard the role hierarchy when executing moderation
+        commands. Don't worry, this feature is on strict by default (role hierarchy is taken into account).
+
+        ###Vote Leaderboard
+        A brand new, anonymous leaderboard displaying how many votes the person above and below you is away. You can view
+        information about this feature and the entire voting system [here](/support-us/vote).
+
+        **New:** The top few people will soon receive a prize at the end of every month! Get voting!
+
+        ###Additional Features
+        
+        * Escape automatic quoting by putting an exclamation mark (!) infront of the message link
+        * Updated the activities list (we recommend inviting our <a href="https://discord.com/api/oauth2/authorize?client_id=882163749077807125&permissions=2049&scope=bot%20applications.commands" target="_blank">brand new dedicated bot</a> for this, launching soon)
+        * Added 2 new vote sites and overhauled voting sessions
+        * We have changed how our analytics collection system works, you should take a look at the privacy policy below.
+        * [Privacy Policy](/legal/privacy)
+        * View server command now DMs the user to hide connection details (will be an ephemeral / cmd soon)
+        * Link your Wyvern Hosting account to Discord
+
+        Ben: All features, Bug fixes + Testing
+        
+        speaking of testing, did I mention we're [hiring them?](/jobs/tester)
+
     ##v1.4.0
-    ???+ note "Utility Update - 28/10/21"
+    ??? note "Utility Update - 28/10/21"
         ###Auto Ticket Closing
         When you have a fantastic support team helping so many people at the same time, it's hard to keep track of all the tickets you have open. With Wyvern's ticket system, you can now specify how long a ticket should stay open for before it is closed automatically. The best part? It's absolutely free. You don't need to vote, nor do you need to subscribe to our patreon. 
     

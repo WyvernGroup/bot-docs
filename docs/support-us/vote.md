@@ -34,7 +34,7 @@ and below you has, but it will not display their name. Here's an example of the 
 
 
 At the end of each month, people in positions #1-#3 may be eligible for a prize. In a normal month, all 3 will be given
-[premium](premium.md) to give use in their own server. Prizes and those eligible for them may vary from month to month.
+[premium](premium.md) to use in their own server. Prizes and those eligible for them may vary from month to month.
 
 ##Benefits Session
 To obtain a place on our [Vote Leaderboard](#leaderboard) and gain a greater levelling XP boost, you need to maintain
