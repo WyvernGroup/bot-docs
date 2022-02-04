@@ -36,7 +36,7 @@
 
         ###Subscribe Command
         The best way to keep up to date with all things Wyvern! Simply run `!subscribe` in your own Discord server, and Wyvern
-        will create a new channel where special notifcations from developers will be sent.
+        will create a new channel where special notifications from developers will be sent.
 
         ###Purge using Message Link
         You can now supply a message link instead of the number of messages to purge. This will purge all messages **up to** the
@@ -226,12 +226,16 @@
 
 
 === "Improvements"
+    
+    ##v1.5.0-1
+    ??? note "Bot Rewrite Hotfix"
+        The changelog for this version is not available currently.
 
-    ##v1.4.0.2
+    ##v1.4.0-2
     ??? note "Minor bug fixes"
         The changelog for this version is not available currently.
 
-    ##v1.4.0.1
+    ##v1.4.0-1
     ???+ note "Emergency Vote Patch - 29/10/21"
         This was a silent update that involved the fix of votes not being received. Votes did not expire during this time to allow people to keep their streaks. As of the release of this update, vote timers have been re-enabled.
 
