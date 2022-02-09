@@ -226,17 +226,21 @@
 
 
 === "Improvements"
-    
+
+    ##v1.5.0-2
+    ???+ note "Database Issues - 08/02/22"
+        Fixed a few notable issues where a small group of users were unable to interact with the bot due to database issues.
+
     ##v1.5.0-1
-    ??? note "Bot Rewrite Hotfix"
+    ??? note "Hotfix - 04/02/22"
         The changelog for this version is not available currently.
 
     ##v1.4.0-2
-    ??? note "Minor bug fixes"
+    ??? note "Minor bug fixes - 01/11/21"
         The changelog for this version is not available currently.
 
     ##v1.4.0-1
-    ???+ note "Emergency Vote Patch - 29/10/21"
+    ??? note "Emergency Vote Patch - 29/10/21"
         This was a silent update that involved the fix of votes not being received. Votes did not expire during this time to allow people to keep their streaks. As of the release of this update, vote timers have been re-enabled.
 
         * Fixed votes not being received and processed
