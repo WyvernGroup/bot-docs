@@ -233,7 +233,7 @@
         Minor bug fixes and changes to internal features.
 
     ##v1.5.0-2
-    ???+ note "Database Issues - 08/02/22"
+    ??? note "Database Issues - 08/02/22"
         Fixed a few notable issues where a small group of users were unable to interact with the bot due to database issues.
 
     ##v1.5.0-1
