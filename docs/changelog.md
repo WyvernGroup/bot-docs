@@ -3,7 +3,7 @@
 === "Major Releases"
 
     ##v1.5.0
-    ???- note "Bot Rewrite - 04/02/22"
+    ???+ note "Bot Rewrite - 04/02/22"
         We're so sorry for the lack of updates over the past 3 months, but this update alone is bigger than all our previous
         updates combined. Unfortunately, most of our changes happened behind the scenes in terms of our backend infrastructure,
         if we had time to add more to the frontend of the bot, this could easily have been 2.0.0.
